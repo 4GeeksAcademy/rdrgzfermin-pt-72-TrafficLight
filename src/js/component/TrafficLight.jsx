@@ -18,15 +18,15 @@ const TrafficLight = () => {
       <div className="TrafficTop"></div>
       <div className="container">
         <div
-          className={`red ${color === "red" ? "light-on" : ""}`}
+          className={`red ${color === "red" ? "light-on-red" : ""}`}
           onClick={() => setColor("red")}
         ></div>
         <div
-          className={`yellow ${color === "yellow" ? "light-on" : ""}`}
+          className={`yellow ${color === "yellow" ? "light-on-yellow" : ""}`}
           onClick={() => setColor("yellow")}
         ></div>
         <div
-          className={`green ${color === "green" ? "light-on" : ""}`}
+          className={`green ${color === "green" ? "light-on-green" : ""}`}
           onClick={() => setColor("green")}
         ></div>
       </div>

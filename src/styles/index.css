@@ -3,14 +3,14 @@
     width: 40px;
     height: 130px;
     margin: 0px auto;
-    background-color: gray;
+    background-color: silver;
 }
 .container{
     border: 1px solid black;
     border-radius: 8px ;
     width: 180px;
     height: 350px;
-    background-color: grey;
+    background-color: silver;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -35,6 +35,12 @@
     background-color: green;
     display: flex;
 }
-.light-on {
-    box-shadow: 0 0 20px 10px rgba(212, 235, 11, 0.5);
+.light-on-red {
+    box-shadow: 0 0 20px 10px red;
+}
+.light-on-yellow {
+    box-shadow: 0 0 20px 10px yellow;
+}
+.light-on-green {
+    box-shadow: 0 0 20px 10px green;
 }
